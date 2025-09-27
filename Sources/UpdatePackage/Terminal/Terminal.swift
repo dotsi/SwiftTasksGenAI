@@ -1,6 +1,6 @@
 //
 //  PackagePreparation.swift
-//  SwiftVisionTasks
+//  SwiftGenAITasks
 //
 //  Created by Pascal Burlet on 27.02.2025.
 //

@@ -1,6 +1,6 @@
 //
 //  UpdatePackage.swift
-//  SwiftVisionTasks
+//  SwiftGenAITasks
 //
 //  Created by Pascal Burlet on 27.02.2025.
 //
@@ -97,19 +97,19 @@ struct UpdatePackage {
             .appending(path: "MediaPipeTasksGenAI")
             .appending(path: "frameworks")
             .appending(path: "MediaPipeTasksGenAI.xcframework")
-        let buildsFolderVisionFrameworkURL = Definitions.packageRoot
+        let buildsFolderGenAIFrameworkURL = Definitions.packageRoot
             .appending(path: ".Builds")
             .appending(path: "MediaPipeTasksGenAI.xcframework")
 
         try fileManager
             .copyContents(
                 of: URL(fileURLWithPath: mediaPipeTasksGenAIXCFrameworkURL.path),
-                to: URL(fileURLWithPath: buildsFolderVisionFrameworkURL.path)
+                to: URL(fileURLWithPath: buildsFolderGenAIFrameworkURL.path)
             )
     }
 
     private static func copyMediaPipeTasksGenAIInfoPlist() throws {
-        guard let url = Bundle.module.url(forResource: "MediaPipeVision.Info", withExtension: "plist") else {
+        guard let url = Bundle.module.url(forResource: "MediaPipeGenAI.Info", withExtension: "plist") else {
             return
         }
         let data = try Data(contentsOf: url)

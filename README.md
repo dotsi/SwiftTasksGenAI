@@ -17,7 +17,7 @@ To integrate **MediaPipeTasksGenAI** into your Xcode project using this package:
 1. **Add Package Dependency:**
    - Open your project in Xcode.
    - Navigate to `File` > `Add Packages...`.
-   - Enter the repository URL for SwiftTasksVision.
+   - Enter the repository URL for SwiftTasksGenAI.
    - Select the desired version and add the package.
    
 2. **Import and Use:**
