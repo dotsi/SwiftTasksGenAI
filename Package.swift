@@ -35,18 +35,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MediaPipeTasksGenAI",
-            url: "https://github.com/paescebu/SwiftTasksGenAI/releases/download/0.0.0/Placeholder.xcframework.zip",
-            checksum: "036eebe20ef2a8a7db46a90838c4b20cb86aad8286fe07a89e0d598fe405e9e0"
+            url: "https://github.com/paescebu/SwiftTasksGenAI/releases/download/0.10.24/MediaPipeTasksGenAI.xcframework.zip",
+            checksum: "4a79aacb7864baf142448353a5131f48767bf861670cb25c70f682f97171e066"
         ),
         .binaryTarget(
             name: "MediaPipeGenAICLibraries",
-            url: "https://github.com/paescebu/SwiftTasksGenAI/releases/download/0.0.0/PlaceholderCLibraries.xcframework.zip",
-            checksum: "3411a886e35c14b494b774c21d69ba6be9b1291a2e852198860dbdd93de15ca1"
+            url: "https://github.com/paescebu/SwiftTasksGenAI/releases/download/0.10.24/MediaPipeGenAICLibraries.xcframework.zip",
+            checksum: "681771c1c7234a910d03dabeb33fc7cdc3314731af2ef81f828bfc47b2a6cf46"
         ),
         .binaryTarget(
             name: "MediaPipeTasksGenAIC",
-            url: "https://github.com/paescebu/SwiftTasksGenAI/releases/download/0.0.0/PlaceholderC.xcframework.zip",
-            checksum: "6126038ff8d0699c097cd007718e17f067c621c9dadb0c85788fb8e7a431e9cd"
+            url: "https://github.com/paescebu/SwiftTasksGenAI/releases/download/0.10.24/MediaPipeTasksGenAIC.xcframework.zip",
+            checksum: "298c27c204c14cd3a8b737493f11515b9229590aac676f844fba26063b2f3b38"
         ),
         .executableTarget(
             name: "UpdatePackage",
